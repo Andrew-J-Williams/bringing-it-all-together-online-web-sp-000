@@ -38,6 +38,8 @@ class Dog
       self
   end
 
+  def self.create
+
   def self.new_from_db(row)
     id = row[0]
     name = row[1]
