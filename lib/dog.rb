@@ -40,8 +40,8 @@ class Dog
 
   def self.new_from_db(row)
     dog_attributes = {
-      :id = row[0]
-      :name = row[1]
+      :id => row[0]
+      :name => row[1]
       :grade = row[2]
     }
     self.new(dog_attributes)
