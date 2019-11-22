@@ -44,7 +44,7 @@ class Dog
       :name = row[1]
       :grade = row[2]
     }
-    self.new(id, name, grade)
+    self.new(dog_attributes)
   end
 
 
