@@ -86,7 +86,7 @@ class Dog
 
     if !dog.empty?
       dog_data = dog[0]
-      song = Song.new(song_data[0], song_data[1], song_data[2])
+      dog = Song.new(song_data[0], song_data[1], song_data[2])
     else
 
     end
