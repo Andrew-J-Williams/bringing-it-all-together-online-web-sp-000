@@ -80,6 +80,8 @@ class Dog
     end.first
   end
 
+  def.find_or_create_by
+
   def update
     sql = "UPDATE dogs SET name = ?, breed = ? WHERE id = ?"
     DB[:conn].execute(sql, self.name, self.breed, self.id)
