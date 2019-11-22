@@ -82,7 +82,7 @@ class Dog
 
   def self.find_or_create_by(name:, breed:)
 
-    dog = DB[:conn].execute("SELECT * FROM songs WHERE name = ? AND album = ?", name, album)
+    dog = DB[:conn].execute("SELECT * FROM songs WHERE name = ? AND breed = ?", name, breed)
 
   end
 
