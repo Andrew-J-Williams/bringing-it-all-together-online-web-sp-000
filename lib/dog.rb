@@ -49,6 +49,7 @@ class Dog
 
   def self.create(info)
     dog = self.new(info)
+    dog.save
   end
 
 
