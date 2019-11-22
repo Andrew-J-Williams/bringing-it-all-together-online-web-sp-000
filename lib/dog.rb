@@ -47,7 +47,9 @@ class Dog
     self.new(dog_attributes)
   end
 
-  def self.create
+  def self.create()
+
+  end
 
 
 end
