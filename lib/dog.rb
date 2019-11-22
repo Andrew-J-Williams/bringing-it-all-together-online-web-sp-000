@@ -86,6 +86,8 @@ class Dog
 
     if !dog.empty?
 
+    else
+
   end
 
   def update
