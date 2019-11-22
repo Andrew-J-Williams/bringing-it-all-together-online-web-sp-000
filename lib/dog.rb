@@ -31,7 +31,7 @@ class Dog
      self.update
    else
      sql = <<-SQL
-       INSERT INTO students (name, grade)
+       INSERT INTO students (name, breed)
        VALUES (?, ?)
      SQL
 
